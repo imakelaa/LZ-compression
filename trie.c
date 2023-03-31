@@ -23,7 +23,7 @@ TrieNode *trie_node_create(uint16_t index) { //creates the nodes
 
 void trie_node_delete(TrieNode *n) {
     if (n != NULL) {
-        free(n); //miles
+        free(n);
         n = NULL;
     }
 }
